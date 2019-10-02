@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
+    <title>arngren.net: Online Shopping for Books, Electronics, Fashion & more</title>
+
+    <!-- Boostrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fonts Open Sans & Raleway-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/9aa55b9b3f.js"></script>
+
+    <!-- Owl carousel css -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.clouds.min.js"></script>
+    <script src="three.r92.min.js"></script>
+    <script src="vanta.clouds.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-1">
+
+            <!-- Logo Container-->
+            <div class="box-1">
+                <div class="logo">
+                    <a href="index.html"><img src="image/logo3.png" alt=""></a>
+                </div>
+            </div>
+            <!-- Search bar container -->
+            <div class="box-2">
+                <div class="wrap">
+                    <div class="search_">
+                        <div class="dropdown">
+                            <button class="dropdown_Button">All</button>
+                            <div class="search_dropdown_content">
+                                <a href="books.html">Books</a>
+                                <a href="#">Electronics</a>
+                                <a href="#">Fun and Sports</a>
+                                <a href="#">Home and Kitchen</a>
+                                <a href="#">Men's Fashion</a>
+                                <a href="#">Software</a>
+                                <a href="#">Toys</a>
+                                <a href="#">Womenn's Fashion</a>
+                            </div>
+                        </div>
+                        <input type="text" name="#" id="searchTerm" placeholder="Search...">
+                        <button type="submit" class="searchButton"><i class="fas fa-search"></i></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Login container -->
+            <div class="box-3">
+                <div class="nested_2">
+                    <div>
+                        <a href="#" class="login_button" data-toggle="modal" data-target="#loginModal">Sign Up</a>
+                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#loginModal">login</button> -->
+                    </div>
+                    <div>
+                        <a href="#" class="login_button" data-toggle="modal" data-target="#registerModal">Log In</a>
+                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#registerModal">Register</button> -->
+                    </div>
+                    <div class="box box1">
+                        <a href="#" class="cart_button"><i class="fas fa-cart-arrow-down fa-2x"></i></a>
+                    </div>
+                    <div class="box box1">
+                        <a href="#" class="cart_button"><i class="fas fa-bell fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Books header -->
+    <div class="books-header">
+        <h1>Books at Arngren</h1>
+    </div>
+
+    <section>
+        <div class="books-container">
+            <!-- sideMenu -->
+            <div class="box-1">
+                <div class="msticky">
+                    <h5>Popular in Books</h5>
+                    <ul>
+                        <li>Award Winners</li>
+                        <li>Best Books of the month</li>
+                        <li>Children's Books</li>
+                        <li>Deals in Books</li>
+                        <li>Celebrity Picks</li>
+                    </ul>
+
+                    <h5>Textbooks</h5>
+                    <ul>
+                        <li>Textbooks Store</li>
+                        <li>Textbooks Rentals</li>
+                        <li>Sell Us Your Books</li>
+                        <li>Kindle e Textbooks</li>
+                    </ul>
+
+                    <h5>Formats</h5>
+                    <ul>
+                        <li><input type="checkbox" class="inp"> Hardcover</li>
+                        <li><input type="checkbox" class="inp"> Paperback</li>
+                        <li><input type="checkbox" class="inp"> Mass Market Paperback</li>
+                        <li><input type="checkbox" class="inp"> Audiobook</li>
+                    </ul>
+
+                    <h5>Price Range</h5>
+                    <ul id="filters">
+                        <li><input type="checkbox" value="a1000"> LKR 1000</li>
+                        <li><input type="checkbox" value="a1000-1500"> LKR 1000 - 1500</li>
+                        <li><input type="checkbox" value="a1500-2000"> LKR 1500 - 2000</li>
+                        <li><input type="checkbox" value="a2000"> LKR 2000</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <div class="booksList">
+
+                    <div class="a1000">
+                        <div class="img1">
+                            <img src="image/books/harry.jpg" alt="harry potter">
+                        </div>
+                        <div class="bookInfo">
+                            <h3>Harry Potter and the Goblet of Fire</h3>
+                            <span class="author">by j.k. Rowling</span>
+                            <span class="price">LKR 1000</span>
+                            <a href="purchase-D.html" class="btnCart">Add Cart</a>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"> (6,228)</i>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="a1000-1500">
+                        <div class="img1">
+                            <img src="image/books/mary.jpg" alt="">
+                        </div>
+                        <div class="bookInfo">
+                            <h3>Cut and Run</h3>
+                            <span class="author">Mary burton</span>
+                            <span class="price">LKR 1100</span>
+                            <a href="purchase-D.html" class="btnCart">Add Cart</a>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star-half-alt"> (735)</i>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="a1500-2000">
+                        <div class="img1">
+                            <img src="image/books/wwk.jpg" alt="">
+                        </div>
+                        <div class="bookInfo">
+                            <h3>What the Wind Knows</h3>
+                            <span class="author">Amy Hormon</span>
+                            <span class="price">LKR 1500</span>
+                            <a href="purchase-D.html" class="btnCart">Add Cart</a>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"> (4,074)</i>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="a2000">
+                        <div class="img1">
+                            <img src="image/books/atwood.jpg" alt="">
+                        </div>
+                        <div class="bookInfo">
+                            <h3>The Testaments</h3>
+                            <span class="author">Margaret Atwood</span>
+                            <span class="price">LKR 2700</span>
+                            <a href="purchase-D.html" class="btnCart">Add Cart</a>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star-half-alt"> (2,567)</i>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="a1000-1500">
+                        <div class="img1">
+                            <img src="image/books/Milkman.jpg" alt="">
+                        </div>
+                        <div class="bookInfo">
+                            <h3>Milkman</h3>
+                            <span class="author">Anna Bruns</span>
+                            <span class="price">LKR 1200</span>
+                            <a href="purchase-D.html" class="btnCart">Add Cart</a>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star-half-alt"> (1,300)</i>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="a1000-1500">
+                        <div class="img1">
+                            <img src="image/books/last.jpg" alt="">
+                        </div>
+                        <div class="bookInfo">
+                            <h3>The Last Move</h3>
+                            <span class="author">Marry Borton</span>
+                            <span class="price">LKR 1450</span>
+                            <a href="purchase-D.html" class="btnCart">Add Cart</a>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star-half-alt"> (520)</i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="box-1">
+                <a href="contactUs.html"><i class="fas fa-id-card fa-4x"></i></a>
+                <div class="m15"></div>
+                <p>Contact Us</p>
+            </div>
+            <div class="box-2">
+                <a href=""><i class="fab fa-facebook-square fa-4x"></i></a>
+                <div class="m15"></div>
+                <p>Stay Connected</p>
+            </div>
+            <div class="box-3">
+                <a href="AboutUs.html"><i class="fas fa-address-card fa-4x"></i></a>
+                <div class="m15"></div>
+                <p>Get to Know Us</p>
+            </div>
+            <div class="box-4">
+                <a href="Services.html"><i class="fas fa-comment-dots fa-4x"></i></a>
+                <div class="m15"></div>
+                <p>24/7 Customer Service</p>
+            </div>
+        </div>
+        <p>copyright&copy;1983-2019 arngren.com or its affiliates</p>
+    </footer>
+    <!-- End footer -->
+    <!-- Vantajs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.clouds.min.js"></script>
+
+    <!-- Vantajs script -->
+    <script>
+        VANTA.CLOUDS({
+            el: ".books-header",
+        })
+    </script>
+
+    <script>
+        $("#filters :checkbox").click(function () {
+            $(".a1000").hide();
+            $("#filters :checkbox:checked").each(function () {
+                $("." + $(this).val()).show();
+            });
+        })
+    </script>
+</body>
+
+</html>

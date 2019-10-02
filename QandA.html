@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="prabhashwara">
+
+    <!-- Title -->
+    <title>arngren.net: Online Shopping for Books, Electronics, Fashion & more</title>
+
+    <!-- Boostrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fonts Open Sans & Raleway-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/9aa55b9b3f.js"></script>
+
+    <!-- Owl carousel css -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-1">
+
+            <!-- Logo Container-->
+            <div class="box-1">
+                <div class="logo">
+                    <a href="index.html"><img src="image/logo3.png" alt=""></a>
+                </div>
+            </div>
+            <!-- Search bar container -->
+            <div class="box-2">
+                <div class="wrap">
+                    <div class="search_">
+                        <div class="dropdown">
+                            <button class="dropdown_Button">All</button>
+                            <div class="search_dropdown_content">
+                                <a href="books.html">Books</a>
+                                <a href="#">Electronics</a>
+                                <a href="#">Fun and Sports</a>
+                                <a href="#">Home and Kitchen</a>
+                                <a href="#">Men's Fashion</a>
+                                <a href="#">Software</a>
+                                <a href="#">Toys</a>
+                                <a href="#">Womenn's Fashion</a>
+                            </div>
+                        </div>
+                        <input type="text" name="#" id="searchTerm" placeholder="Search...">
+                        <button type="submit" class="searchButton"><i class="fas fa-search"></i></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Login container -->
+            <div class="box-3">
+                <div class="nested_2">
+                    <div>
+                        <a href="#" class="login_button" data-toggle="modal" data-target="#loginModal">Sign Up</a>
+                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#loginModal">login</button> -->
+                    </div>
+                    <div>
+                        <a href="#" class="login_button" data-toggle="modal" data-target="#registerModal">Log In</a>
+                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#registerModal">Register</button> -->
+                    </div>
+                    <div class="box box1">
+                        <a href="#" class="cart_button"><i class="fas fa-cart-arrow-down fa-2x"></i></a>
+                    </div>
+                    <div class="box box1">
+                        <a href="#" class="cart_button"><i class="fas fa-bell fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Q and A Header -->
+    <div class="qanda-header">
+        <h1>Question and Answer</h1>
+    </div>
+
+    <div class="qanda-askBox">
+        <input type="text" name="#" id="qanda-searchTerm" placeholder="Ask your question...">
+        <button type="submit" class="searchButton" onClick="pr()">Ask</button>
+    </div>
+
+    <div class="qandacontainer">
+        <div class="qanda-list">
+            <p class="question">New Question : <span id="newQuestion"></span></p>
+        </div>
+        <div class="qanda-list">
+            <p class="question">Does this keyboard have a physical volume control?</p>
+            <p class="answer">It doesn't have volume control out of the box but you can very easily add it. Google a
+                program
+                called 3RVX and download it from their site. Once downloaded type 3RVX in the windows search bar and
+                RIGHT
+                click then select open folder. Go into the settings program and on the top open the settings tab. Now
+                you
+                just click the + and select volume up then assign it to any key you want (one you don't use like next
+                track)
+                and repeat the process for volume down. Make sure you check "start with windows" under the general tab
+                so
+                the changes will work after you shut down your PC. It takes about 1 minute from start to finish and
+                works
+                great. You can add all sorts of functionality with 3RVX but I only use it for volume</p>
+        </div>
+        <div class="qanda-list">
+            <p class="question">Does this keyboard feel like any cherrymx keyboards?</p>
+            <p class="answer">No, I think it's a bit better than a standard keyboard and much better than chiclet
+                keyboards but it does not feel like my corsair rgb k70 with cherry mx. My biggest complaint about the
+                keyboard is the missing context menu button which I use a lot and because of the placement of the g5 key
+                I mistake that for the ctrl key when I am doing keyboard shortcuts. Other than that, it's a decent
+                keyboard.</p>
+        </div>
+        <div class="qanda-list">
+            <p class="question">Is it rgb</p>
+            <p class="answer">Yes it is. It can switch to other colors no problem. It just cant color individual keys
+                like some keyboards do.</p>
+        </div>
+        <div class="qanda-list">
+            <p class="question">can i hook this up to my ps4 via usb?</p>
+            <p class="answer">yes you can but i don't know with the keyboard i am looking for a new one but the one i
+                have now i hook up to my xbox one and i play fortnite</p>
+        </div>
+        <div class="qanda-list">
+            <p class="question">Can the f1 / delete key of this keyboard be used to enter the motherboard's bios?</p>
+            <p class="answer">hot keys for entering the bios system are usually set with the computer and not the
+                keyboard however between the settings in the computer and the macro keys you should be able to change it
+                to work with whichever keys you wanted...</p>
+        </div>
+        <div class="qanda-list">
+            <p class="question">I can not get this to work on my desktop pc, but it will work on my laptop. does anyone
+                know why it would not work on my desktop? windows 10 education</p>
+            <p class="answer">if it works on your laptop, you can be assured that it is fully functional. I would try
+                using a different usb port on your desktop, the one that you used is likely the culprit. To further
+                check the new keyboard, try using it on yet another computer, I bet it works there too.</p>
+        </div>
+        <div class="qanda-list">
+            <p class="question">Can a "G" button be programmed to be used as a left, middle or right mouse click?</p>
+            <p class="answer">there are 5 function keys on the right that are set up in such a way that you can assign
+                the keys on the keyboard 5 different ways then select the function key for the setting you want to use.
+                So you could set it to be used as a mouse and then also have another function where it works normally.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="box-1">
+                <a href="contactUs.html"><i class="fas fa-id-card fa-4x"></i></a>
+                <div class="m15"></div>
+                <p>Contact Us</p>
+            </div>
+            <div class="box-2">
+                <a href=""><i class="fab fa-facebook-square fa-4x"></i></a>
+                <div class="m15"></div>
+                <p>Stay Connected</p>
+            </div>
+            <div class="box-3">
+                <a href="AboutUs.html"><i class="fas fa-address-card fa-4x"></i></a>
+                <div class="m15"></div>
+                <p>Get to Know Us</p>
+            </div>
+            <div class="box-4">
+                <a href="Services.html"><i class="fas fa-comment-dots fa-4x"></i></a>
+                <div class="m15"></div>
+                <p>24/7 Customer Service</p>
+            </div>
+        </div>
+        <p>copyright&copy;1983-2019 arngren.com or its affiliates</p>
+    </footer>
+    <!-- End footer -->
+
+    <script>
+        function pr() {
+            document.getElementById("newQuestion").innerHTML = document.getElementById('qanda-searchTerm').value;
+        }
+    </script>
+
+    <!-- Vantajs script -->
+    <script>
+        VANTA.BIRDS({
+            el: ".qanda-header",
+        })
+    </script>
+
+</body>
+
+</html>
